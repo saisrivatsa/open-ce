@@ -5,7 +5,8 @@ packages:
   - feedstock : langcodes
   - feedstock : spacy-legacy
   - feedstock : spacy-loggers
-  - feedstock : spacy
+  - feedstock : https://github.com/saisrivatsa/spacy-feedstock
+    git_tag : spacy-fix-17 
 {% endif %}
 
 git_tag_for_env: open-ce-v1.7.8
